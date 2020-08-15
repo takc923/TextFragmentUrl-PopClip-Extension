@@ -12,14 +12,10 @@ end
 
 current_directory = File.expand_path(File.dirname(__FILE__))
 url = %x("#{current_directory}/get-current-url-on-chrome.scpt").strip
-p url
 url.sub!(/(#.*):~:text=.*/, '\1')
-p url
 unless url.include?('#')
   url += '#'
 end
-p url
 url += text_fragment
-p url
 
 system('open', '-b', 'com.google.Chrome', url)
