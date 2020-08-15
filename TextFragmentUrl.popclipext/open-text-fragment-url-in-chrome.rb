@@ -25,5 +25,6 @@ hash = if url.include?('#')
        else
          '#'
        end
-
-system('open', '-b', 'com.google.Chrome', url + hash + text_fragment_keyword + start_text + end_text)
+text_fragment_url = url + hash + text_fragment_keyword + start_text + end_text
+IO.popen('pbcopy', 'w') { |f| f << text_fragment_url }
+system('open', '-b', 'com.google.Chrome', text_fragment_url)
