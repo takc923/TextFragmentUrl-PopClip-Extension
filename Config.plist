@@ -29,7 +29,7 @@
             <string>com.google.Chrome</string>
         </array>
         <key>Extension Description</key>
-        <string>Open the link with Text Fragment in Google Chrome.</string>
+        <string>Add selected text to the current URL as Text Fragments and open it in Google Chrome.</string>
         <key>Extension Identifier</key>
         <string>io.github.takc923</string>
         <key>Extension Name</key>
