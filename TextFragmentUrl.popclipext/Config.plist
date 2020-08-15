@@ -5,6 +5,8 @@
         <key>Actions</key>
         <array>
             <dict>
+                <key>Script Interpreter</key>
+                <string>/usr/bin/ruby</string>
                 <key>Shell Script File</key>
                 <string>open-text-fragment-url-in-chrome.rb</string>
                 <key>Title</key>
