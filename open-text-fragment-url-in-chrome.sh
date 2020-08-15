@@ -7,13 +7,13 @@ echo "encoded_text: ${encoded_text}"
 target_url=$(./get-current-url-on-chrome.scpt)
 echo "target_url: ${target_url}"
 
-if [[ "$target_url" == *'#'* ]]
+if [[ "${target_url}" == *'#'*':~:text=' ]]
 then
-  if [[ "$target_url" == *':~:text='* ]]
-  then
-    target_url="${target_url/:~:text=*/}"
-  fi
-else
+  target_url="${target_url/:~:text=*/}"
+fi
+
+if [[ "${target_url}" != *'#'* ]]
+then
   target_url="${target_url}#"
 fi
 
