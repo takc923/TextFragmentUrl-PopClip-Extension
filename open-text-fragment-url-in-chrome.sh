@@ -10,7 +10,7 @@ echo "encoded_text: ${encoded_text}"
 target_url=$(./get-current-url-on-chrome.scpt)
 echo "target_url: ${target_url}"
 
-if [[ "${target_url}" == *'#'*"${tf_keyword}" ]]
+if [[ "${target_url}" =~ .*#.*${tf_keyword} ]]
 then
   target_url="${target_url/${tf_keyword}*/}"
 fi
