@@ -6,7 +6,7 @@
         <array>
             <dict>
                 <key>Shell Script File</key>
-                <string>open-text-fragment-url-in-chrome.sh</string>
+                <string>open-text-fragment-url-in-chrome.rb</string>
                 <key>Title</key>
                 <string>TF🔗</string>
             </dict>
