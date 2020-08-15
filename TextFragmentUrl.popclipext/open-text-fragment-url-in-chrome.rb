@@ -11,7 +11,7 @@ if paragraphs.length > 1
 end
 
 current_directory = File.expand_path(File.dirname(__FILE__))
-url = %x(#{current_directory}/get-current-url-on-chrome.scpt).strip
+url = %x("#{current_directory}/get-current-url-on-chrome.scpt").strip
 p url
 url.sub!(/(#.*):~:text=.*/, '\1')
 p url
