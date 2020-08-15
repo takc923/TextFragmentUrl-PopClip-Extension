@@ -4,7 +4,7 @@ tf_keyword=':~:text='
 echo "start $0"
 echo "POPCLIP_TEXT: ${POPCLIP_TEXT}"
 
-encoded_text=$(php -r "echo urlencode('$POPCLIP_TEXT');")
+encoded_text=$(php -r "echo rawurlencode('$POPCLIP_TEXT');")
 echo "encoded_text: ${encoded_text}"
 
 target_url=$(./get-current-url-on-chrome.scpt)
