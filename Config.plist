@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Actions</key>
+        <array>
+            <dict>
+                <key>Shell Script File</key>
+                <string>open-text-fragment-url-in-chrome.sh</string>
+                <key>Title</key>
+                <string>TF🔗</string>
+            </dict>
+        </array>
+        <key>Apps</key>
+        <array>
+            <dict>
+                <key>Check Installed</key>
+                <true/>
+                <key>Bundle Identifier</key>
+                <string>com.google.Chrome</string>
+                <key>Link</key>
+                <string>http://www.google.com/chrome</string>
+                <key>Name</key>
+                <string>Google Chrome</string>
+            </dict>
+        </array>
+        <key>Required Apps</key>
+        <array>
+            <string>com.google.Chrome</string>
+        </array>
+        <key>Extension Description</key>
+        <string>Open the link with Text Fragment in Google Chrome.</string>
+        <key>Extension Identifier</key>
+        <string>io.github.takc923</string>
+        <key>Extension Name</key>
+        <string>Text Fragment URL</string>
+    </dict>
+</plist>
