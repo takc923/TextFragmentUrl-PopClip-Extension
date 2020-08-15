@@ -33,7 +33,7 @@
         <key>Extension Description</key>
         <string>Add selected text to the current URL as Text Fragments and open it in Google Chrome.</string>
         <key>Extension Identifier</key>
-        <string>io.github.takc923</string>
+        <string>io.github.takc923.text-fragment-url</string>
         <key>Extension Name</key>
         <string>Text Fragment URL</string>
     </dict>
