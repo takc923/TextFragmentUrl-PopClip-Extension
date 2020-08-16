@@ -10,7 +10,9 @@
                 <key>Shell Script File</key>
                 <string>open-text-fragment-url-in-chrome.rb</string>
                 <key>Title</key>
-                <string>TF🔗</string>
+                <string>Text Fragment URL</string>
+                <key>Image File</key>
+                <string>./icon.png</string>
             </dict>
         </array>
         <key>Apps</key>
